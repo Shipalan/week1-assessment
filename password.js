@@ -2,10 +2,14 @@ console.log('Welcome to the password validator tool.');
 
 const readline = require('readline');
 
+
+//boilerplate code
 const reader = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
+//end boilerplate code
+
 
 console.log(`%c ________________________________________
 < mooooooooooooooooooooooooooooooooooooo >
@@ -29,12 +33,7 @@ reader.question("Enter a password ", function(input){
     } else {
         console.log('Invalid Password!');
     }
-
-  
-
-
-
-	// This line closes the connection to the command line interface.
+    
 	reader.close()
 
 });
