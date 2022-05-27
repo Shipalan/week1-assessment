@@ -39,8 +39,10 @@ const gitHubDefinition = ('GitHub is where you can backup all your repositories 
 
 //CODE HERE
 
-const init = ('git init creates a new Git repository')
-const initCode = ('git init')
+const init = {
+    description: 'creates a git repository at your current directory location',
+    code: 'git init',
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -50,8 +52,11 @@ const initCode = ('git init')
 
 //CODE HERE
 
-const clone = ('Creates a copy of a repository in a new directory at another location')
-const copyCode = ('git clone <repo> <directory>')
+const clone = {
+    description: 'Creates a copy of a repository in a new directory at another location',
+    code: 'git clone <repo> <directory>',
+}
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -61,8 +66,10 @@ const copyCode = ('git clone <repo> <directory>')
 
 //CODE HERE
 
-const status = ('The git status command displays the state of the working directory and the staging area')
-const statusCode = ('git status')
+const status = {
+    description: 'The git status command displays the state of the working directory and the staging area',
+    code: 'git status',
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -72,8 +79,11 @@ const statusCode = ('git status')
 
 //CODE HERE
 
-const add = ('Queues up all the changes to be commited')
-const addCode = ('git add')
+const add = {
+    description: 'Queues up all the changes to be commited',
+    code: 'git add',
+}
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -83,9 +93,10 @@ const addCode = ('git add')
 
 //CODE HERE
 
-const commit = ('Saves all the staged changes, along with a brief message')
-const commitCode = ('git commit -m "message" ')
-
+const commit = {
+    description:'Saves all the staged changes, along with a brief message',
+    code: 'git commit -m "message"',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -95,5 +106,9 @@ const commitCode = ('git commit -m "message" ')
 
 //CODE HERE
 
-const push = ('used to upload local repository content to a remote repository')
-const pushCode = ('git push <remote> <branch>')
+const push = {
+    description: 'used to upload local repository content to a remote repository',
+    code: 'git push <remote> <branch>',
+}
+
+// console.log(push)
