@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = ('Git is a version control system, it helps you keep track of code changes')
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = ('GitHub is where you can backup all your repositories to the cloud')
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,9 @@
 
 //CODE HERE
 
+const init = ('git init creates a new Git repository')
+const initCode = ('git init')
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +49,9 @@
 */
 
 //CODE HERE
+
+const clone = ('Creates a copy of a repository in a new directory at another location')
+const copyCode = ('git clone <repo> <directory>')
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +61,9 @@
 
 //CODE HERE
 
+const status = ('The git status command displays the state of the working directory and the staging area')
+const statusCode = ('git status')
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +71,9 @@
 */
 
 //CODE HERE
+
+const add = ('Queues up all the changes to be commited')
+const addCode = ('git add')
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +83,9 @@
 
 //CODE HERE
 
+const commit = ('Saves all the staged changes, along with a brief message')
+const commitCode = ('git commit -m "message" ')
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +94,6 @@
 */
 
 //CODE HERE
+
+const push = ('used to upload local repository content to a remote repository')
+const pushCode = ('git push <remote> <branch>')
